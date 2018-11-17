@@ -1,0 +1,84 @@
+body{
+	font-family : 'Roboto', monospace;
+	background-color: #466789;
+	color: white;
+	text-align: center;
+}
+h1 {
+	font-family : 'Allerta+Stencil', monospace ;
+	font-weight: bold;
+	font-size : 400%;
+	color: white
+}
+h2{
+	color : #EDA71C;
+}
+
+a{
+	color : white;
+	text-decoration: underline;
+}
+a:hover {
+	color : yellow;
+	text-decoration: none;
+}
+#banner{
+  text-align: center;
+  background-image:url(images/berlin.jpg);
+  background-size: cover;
+  padding: 100px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+.images p{
+	color : black;
+}
+
+.card-image {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+.card-image-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  border-radius: 50%;
+}
+.card-image-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.card-image-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-image-description h2 {
+  font-size: 24px;
+}
+.card-image-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.card-image-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-image-link:hover {
+  opacity: 0.1;
+}
